@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.morse.gap" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>MorseGap</name>
+    <description>
+        A Text-to-Morse converter
+    </description>
+    <author email="octav@nicolae.uk" href="http://octav.co.uk">
+        Octav@Lucid
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>

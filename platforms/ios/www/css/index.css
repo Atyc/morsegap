@@ -1,0 +1,264 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    /*background-color:#E4E4E4;*/
+    background:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #A7A7A7),
+        color-stop(0.51, #E4E4E4)
+    );
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+/* Portrait layout (default) */
+.app {
+    /* background:url(../img/logo.png) no-repeat center top; 170px x 200px */
+    position:absolute;             /* position in the center of the screen */
+    /*left:50%;*/
+    top:5%;
+    height:100%;                  /* text area height */
+    width:100%;                   /* text area width */
+    text-align:center;
+    overflow:auto;
+    /* padding:180px 0px 0px 0px;     image height is 200px (bottom 20px are overlapped with text) */
+/*    margin-left: 10px; 
+    margin-right: 10px; */                             
+}
+
+
+
+h1 {
+    font-size:24px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+    text-transform:uppercase;  
+}
+
+.event {
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    margin:0px 30px;
+    padding:2px 0px;
+}
+
+.event.listening {
+    background-color:#333333;
+    display:block;
+}
+
+.event.received {
+    background-color:#4B946A;
+    display:none;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+.blink {
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}
+
+/*added*/
+
+.tableContainer, .tableContainer2 {
+    width:100%;
+}
+
+.pair {
+    border: 1px solid #a5a5a5;
+    width:45px;
+    height:45px;
+    margin:auto;
+    float:left;
+    padding:5px;
+    text-align:center;
+    font-family:verdana;
+    overflow:hidden;
+}
+
+.halfLeft {
+width:47%;
+float:left;
+}
+
+.halfRight {
+width:47%;
+float:right;
+}
+
+textarea{
+  width:98%;
+  margin:auto;
+  height:50px;
+}
+
+h1 {
+  font-family: helvetica;
+  font-size:18px;
+  color: #2c89ff;
+}
+
+
+
+.bottomMenu {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    padding:0;
+    width:100%;    
+}
+
+.bottomMenu div {
+    display:inline-block;
+    width:25%;
+    text-align:center;
+    padding-top:10px;
+    height:50px;
+    top:50%;
+    text-transform:uppercase;
+    float:left;
+    border-right:1px solid #efefef;
+
+    background: -webkit-linear-gradient(top,  #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* Chrome10+,Safari5.1+ */
+    background: -ms-linear-gradient(top,  #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* W3C */
+    font-weight: bold;
+    color: #000000;
+
+-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+
+}
+
+.bottomMenu div.last {
+    border:0;
+    width:24%;
+}
+
+.bottomMenu div.home {
+}
+
+.bottomMenu div:active {
+color:red;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d2dfed), color-stop(26%,#c8d7eb), color-stop(67%,#bed0ea), color-stop(69%,#a6c0e3), color-stop(79%,#afc7e8), color-stop(87%,#bad0ef), color-stop(95%,#99b5db), color-stop(100%,#799bc8)); 
+background: -webkit-linear-gradient(top,  #d2dfed 0%,#c8d7eb 26%,#bed0ea 67%,#a6c0e3 69%,#afc7e8 79%,#bad0ef 87%,#99b5db 95%,#799bc8 100%); 
+background: -ms-linear-gradient(top,  #d2dfed 0%,#c8d7eb 26%,#bed0ea 67%,#a6c0e3 69%,#afc7e8 79%,#bad0ef 87%,#99b5db 95%,#799bc8 100%);
+background: linear-gradient(to bottom,  #d2dfed 0%,#c8d7eb 26%,#bed0ea 67%,#a6c0e3 69%,#afc7e8 79%,#bad0ef 87%,#99b5db 95%,#799bc8 100%); 
+}
+
+h1.title {
+    font-size:40px;
+}
+
+.clear {
+    clear:both;
+    width:100%;
+    text-align: center;
+    margin:auto;
+    height:100px;
+}
+
+.choice {
+    margin-top:10px;
+    margin-left:20px;
+    margin-right:20px;
+    padding-top:20px;
+    border:1px solid #cacaca;
+    width:120px;
+    height:100px;
+    display:inline-block;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-size:15px;
+    color:#000;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d2dfed), color-stop(26%,#c8d7eb), color-stop(67%,#bed0ea), color-stop(69%,#a6c0e3), color-stop(79%,#afc7e8), color-stop(87%,#bad0ef), color-stop(95%,#99b5db), color-stop(100%,#799bc8)); 
+    background: -webkit-linear-gradient(top,  #d2dfed 0%,#c8d7eb 26%,#bed0ea 67%,#a6c0e3 69%,#afc7e8 79%,#bad0ef 87%,#99b5db 95%,#799bc8 100%); 
+    background: -ms-linear-gradient(top,  #d2dfed 0%,#c8d7eb 26%,#bed0ea 67%,#a6c0e3 69%,#afc7e8 79%,#bad0ef 87%,#99b5db 95%,#799bc8 100%);
+    background: linear-gradient(to bottom,  #d2dfed 0%,#c8d7eb 26%,#bed0ea 67%,#a6c0e3 69%,#afc7e8 79%,#bad0ef 87%,#99b5db 95%,#799bc8 100%); 
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -ms-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;box-shadow: 10px 10px 5px #888888;
+}
+
+
+.choice:active {
+color:red;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d2dfed), color-stop(26%,#c8d7eb), color-stop(67%,#bed0ea), color-stop(69%,#a6c0e3), color-stop(79%,#afc7e8), color-stop(87%,#bad0ef), color-stop(95%,#99b5db), color-stop(100%,#799bc8)); 
+background: -webkit-linear-gradient(top,  #d2dfed 0%,#c8d7eb 26%,#bed0ea 67%,#a6c0e3 69%,#afc7e8 79%,#bad0ef 87%,#99b5db 95%,#799bc8 100%); 
+background: -ms-linear-gradient(top,  #d2dfed 0%,#c8d7eb 26%,#bed0ea 67%,#a6c0e3 69%,#afc7e8 79%,#bad0ef 87%,#99b5db 95%,#799bc8 100%);
+background: linear-gradient(to bottom,  #d2dfed 0%,#c8d7eb 26%,#bed0ea 67%,#a6c0e3 69%,#afc7e8 79%,#bad0ef 87%,#99b5db 95%,#799bc8 100%); 
+box-shadow: 5px 5px 2px #888888;
+
+}
+
+
+
+
+
+
+
+
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+       /* padding:75px 0px 75px 170px;   padding-top + padding-bottom + text area = image height */
+        /* margin:-90px 0px 0px -198px;  offset vertical: half of image height */
+                                      /* offset horizontal: half of image width and text area width */
+    }
+}

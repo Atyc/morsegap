@@ -1,0 +1,28 @@
+2015-02-26 17:02:28.513 MorseGap[23920:46343154] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/administrator/Library/Developer/CoreSimulator/Devices/BFF31D2F-A736-4E9B-86A2-7BB0FBAE5641/data/Containers/Data/Application/EF4E8173-62B6-457A-AE9A-CB6BDCE2FDF2/Library/Cookies/Cookies.binarycookies
+2015-02-26 17:02:29.867 MorseGap[23920:46343154] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-26 17:02:29.867 MorseGap[23920:46343154] Multi-tasking -> Device: YES, App: YES
+2015-02-26 17:02:29.868 MorseGap[23920:46343154] Unlimited access to network resources
+2015-02-26 17:02:29.923 MorseGap[23920:46343154] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-26 17:02:32.062 MorseGap[23920:46343154] Resetting plugins due to page load.
+2015-02-26 17:02:32.294 MorseGap[23920:46343154] Finished load of: file:///Users/administrator/Library/Developer/CoreSimulator/Devices/BFF31D2F-A736-4E9B-86A2-7BB0FBAE5641/data/Containers/Bundle/Application/4AD0CEAF-86AA-4066-B5ED-8BD0F9CB61D3/MorseGap.app/www/index.html
+2015-02-26 17:24:45.738 MorseGap[24270:46399428] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/administrator/Library/Developer/CoreSimulator/Devices/BFF31D2F-A736-4E9B-86A2-7BB0FBAE5641/data/Containers/Data/Application/EB55BA7F-3350-41A7-9C41-FC8432CA69E7/Library/Cookies/Cookies.binarycookies
+2015-02-26 17:24:46.113 MorseGap[24270:46399428] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-26 17:24:46.114 MorseGap[24270:46399428] Multi-tasking -> Device: YES, App: YES
+2015-02-26 17:24:46.115 MorseGap[24270:46399428] Unlimited access to network resources
+2015-02-26 17:24:46.118 MorseGap[24270:46399428] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-26 17:24:47.125 MorseGap[24270:46399428] Resetting plugins due to page load.
+2015-02-26 17:24:47.555 MorseGap[24270:46399428] Finished load of: file:///Users/administrator/Library/Developer/CoreSimulator/Devices/BFF31D2F-A736-4E9B-86A2-7BB0FBAE5641/data/Containers/Bundle/Application/BB71B1E0-86F6-4397-8F48-735878CE3783/MorseGap.app/www/index.html

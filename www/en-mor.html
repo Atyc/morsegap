@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Morse Code Translator</title>
+        <script type="text/javascript" src="js/morse.js"></script>
+        <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+
+    </head>
+    <body>
+<div class="app">
+
+<div class="halfLeft" style="width:100%">
+  <h1>Text to morse code translator</h1>
+  <textarea id="insert" rows="10" onKeyUp="translateMe(this.value);" placeholder="Type text to convert"></textarea>
+  <div class="tableContainer" id="tableContainer"></div>
+</div>
+
+<div class="halfRight" style="display:none">
+  <h1>Morse code to text translator</h1>
+  <textarea id="insert2" rows="10" onKeyUp="translateMorse(this.value);" placeholder="Type morse code to translate"></textarea>
+  <div class="tableContainer2" id="tableContainer2"></div>
+</div>
+
+
+
+    <div class="bottomMenu">
+        <a href="index.html"><div class="button home">Home</div></a>
+        <a href="en-mor.html"><div class="button">Text to morse</div></a>
+        <a href="mor-en.html"><div class="button">Morse to text</div></a>
+        <a href="about.html"><div class="button last">About</div></a>
+    </div>
+</div>
+
+ 
+
+  
+        <!--     <h1>Apache Cordova</h1> -->
+
+
+
+
+
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

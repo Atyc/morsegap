@@ -1,0 +1,271 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'phonegap',
+1 verbose cli   '-g' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 silly cache add args [ 'phonegap', null ]
+5 verbose cache add spec phonegap
+6 silly cache add parsed spec { raw: 'phonegap',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'phonegap',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed phonegap@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'phonegap', range: '*', hasData: false }
+11 silly mapToRegistry name phonegap
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/phonegap
+15 verbose addNameRange registry:https://registry.npmjs.org/phonegap not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/phonegap
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 5:12:01 PM
+19 verbose request id 9199e1d1a0e922af
+20 http request GET https://registry.npmjs.org/phonegap
+21 http 200 https://registry.npmjs.org/phonegap
+22 silly get cb [ 200,
+22 silly get   { date: 'Thu, 26 Feb 2015 17:12:02 GMT',
+22 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly get     etag: '"DXGAOQBEATNQN97J7VP2FHCRT"',
+22 silly get     'content-type': 'application/json',
+22 silly get     'cache-control': 'max-age=60',
+22 silly get     'content-length': '204976',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     via: '1.1 varnish',
+22 silly get     age: '20',
+22 silly get     'x-served-by': 'cache-lhr6327-LHR',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '1',
+22 silly get     'x-timer': 'S1424970722.022690,VS0,VE2',
+22 silly get     vary: 'Accept',
+22 silly get     'keep-alive': 'timeout=10, max=50',
+22 silly get     connection: 'Keep-Alive' } ]
+23 verbose get saving phonegap to /Users/administrator/.npm/registry.npmjs.org/phonegap/.cache.json
+24 silly addNameRange number 2 { name: 'phonegap', range: '*', hasData: true }
+25 silly addNameRange versions [ 'phonegap',
+25 silly addNameRange   [ '0.2.0',
+25 silly addNameRange     '0.2.1',
+25 silly addNameRange     '0.2.2',
+25 silly addNameRange     '0.3.0',
+25 silly addNameRange     '0.4.0',
+25 silly addNameRange     '0.4.1',
+25 silly addNameRange     '0.5.0',
+25 silly addNameRange     '0.6.0',
+25 silly addNameRange     '0.6.1',
+25 silly addNameRange     '0.7.0',
+25 silly addNameRange     '0.7.1',
+25 silly addNameRange     '0.7.2',
+25 silly addNameRange     '0.7.3',
+25 silly addNameRange     '0.7.4',
+25 silly addNameRange     '0.7.5',
+25 silly addNameRange     '0.7.6',
+25 silly addNameRange     '0.7.7',
+25 silly addNameRange     '0.7.8',
+25 silly addNameRange     '0.8.0',
+25 silly addNameRange     '0.8.1',
+25 silly addNameRange     '0.9.0',
+25 silly addNameRange     '0.9.1',
+25 silly addNameRange     '0.9.2',
+25 silly addNameRange     '0.9.3',
+25 silly addNameRange     '0.9.4',
+25 silly addNameRange     '2.8.0-0.10.0',
+25 silly addNameRange     '2.8.0-0.10.1',
+25 silly addNameRange     '2.8.0-0.10.2',
+25 silly addNameRange     '2.8.0-0.10.3',
+25 silly addNameRange     '2.8.0-0.10.4',
+25 silly addNameRange     '2.8.0-0.10.6',
+25 silly addNameRange     '2.8.1-0.11.0',
+25 silly addNameRange     '2.9.0-0.12.2',
+25 silly addNameRange     '2.9.0-0.12.3',
+25 silly addNameRange     '2.9.0-0.12.4',
+25 silly addNameRange     '2.9.0-0.12.5',
+25 silly addNameRange     '2.9.0-0.12.6',
+25 silly addNameRange     '2.9.0-0.12.7',
+25 silly addNameRange     '2.9.0-0.12.8',
+25 silly addNameRange     '2.9.0-rc1-0.12.0',
+25 silly addNameRange     '2.9.0-rc1-0.12.1',
+25 silly addNameRange     '2.9.0-rc1-0.12.2',
+25 silly addNameRange     '2.9.0-0.12.9',
+25 silly addNameRange     '2.9.0-0.12.10',
+25 silly addNameRange     '2.9.0-0.12.11',
+25 silly addNameRange     '2.9.0-0.13.0',
+25 silly addNameRange     '2.9.0-0.13.1',
+25 silly addNameRange     '2.9.0-0.13.2',
+25 silly addNameRange     '3.0.0-rc1-0.13.2',
+25 silly addNameRange     '3.0.0-rc1-0.13.3',
+25 silly addNameRange     '3.0.0-0.14.0',
+25 silly addNameRange     '3.0.0-0.14.1',
+25 silly addNameRange     '3.0.0-0.14.2',
+25 silly addNameRange     '3.0.0-0.14.3',
+25 silly addNameRange     '3.0.0-0.14.4',
+25 silly addNameRange     '3.1.0-0.15.0',
+25 silly addNameRange     '3.2.0-0.15.0',
+25 silly addNameRange     '3.2.0-0.16.0',
+25 silly addNameRange     '3.2.0-0.17.0',
+25 silly addNameRange     '3.2.0-0.17.1',
+25 silly addNameRange     '3.3.0-0.17.1',
+25 silly addNameRange     '3.3.0-0.18.0',
+25 silly addNameRange     '3.3.0-0.18.1',
+25 silly addNameRange     '3.3.0-0.19.0',
+25 silly addNameRange     '3.3.0-0.19.1',
+25 silly addNameRange     '3.3.0-0.19.2',
+25 silly addNameRange     '3.3.0-0.19.3',
+25 silly addNameRange     '3.3.0-0.19.4',
+25 silly addNameRange     '3.3.0-0.19.5',
+25 silly addNameRange     '3.3.0-0.19.6',
+25 silly addNameRange     '3.4.0-0.19.7',
+25 silly addNameRange     '3.4.0-0.19.8',
+25 silly addNameRange     '3.4.0-0.19.9',
+25 silly addNameRange     '3.4.0-0.19.10',
+25 silly addNameRange     '3.4.0-0.19.11',
+25 silly addNameRange     '3.4.0-0.19.12',
+25 silly addNameRange     '3.4.0-0.19.13',
+25 silly addNameRange     '3.4.0-0.19.14',
+25 silly addNameRange     '3.4.0-0.19.15',
+25 silly addNameRange     '3.4.0-0.19.16',
+25 silly addNameRange     '3.4.0-0.19.17',
+25 silly addNameRange     '3.4.0-0.19.18',
+25 silly addNameRange     '3.4.0-0.19.19',
+25 silly addNameRange     '3.4.0-0.19.20',
+25 silly addNameRange     '3.4.0-0.19.21',
+25 silly addNameRange     '3.4.0-0.20.0',
+25 silly addNameRange     '3.5.0-0.19.23',
+25 silly addNameRange     '3.5.0-0.20.0',
+25 silly addNameRange     '3.5.0-0.20.1',
+25 silly addNameRange     '3.5.0-0.20.3',
+25 silly addNameRange     '3.5.0-0.20.4',
+25 silly addNameRange     '3.5.0-0.20.5',
+25 silly addNameRange     '3.5.0-0.20.6',
+25 silly addNameRange     '3.5.0-0.20.7',
+25 silly addNameRange     '3.5.0-0.20.9',
+25 silly addNameRange     '3.5.0-0.20.10',
+25 silly addNameRange     '3.5.0-0.20.14',
+25 silly addNameRange     '3.5.0-0.21.14',
+25 silly addNameRange     '3.5.0-0.21.15',
+25 silly addNameRange     '3.5.0-0.21.16',
+25 silly addNameRange     '3.5.0-0.21.17',
+25 silly addNameRange     '3.5.0-0.21.18',
+25 silly addNameRange     '3.6.0-0.21.18',
+25 silly addNameRange     '3.6.0-0.21.19',
+25 silly addNameRange     '3.6.3-0.22.0',
+25 silly addNameRange     '3.6.3-0.22.1',
+25 silly addNameRange     '3.6.3-0.22.2',
+25 silly addNameRange     '3.6.3-0.22.3',
+25 silly addNameRange     '3.6.3-0.22.4',
+25 silly addNameRange     '3.6.3-0.22.5',
+25 silly addNameRange     '3.6.3-0.22.6',
+25 silly addNameRange     '3.6.3-0.22.7',
+25 silly addNameRange     '4.0.0-0.22.7',
+25 silly addNameRange     '4.1.2-0.22.7',
+25 silly addNameRange     '4.1.2-0.22.8',
+25 silly addNameRange     '4.1.2-0.22.9',
+25 silly addNameRange     '4.1.2-0.22.10',
+25 silly addNameRange     '4.1.2-0.22.11',
+25 silly addNameRange     '4.1.2-0.22.12',
+25 silly addNameRange     '4.2.0-0.23.0',
+25 silly addNameRange     '4.2.0-0.24.0',
+25 silly addNameRange     '4.2.0-0.24.1',
+25 silly addNameRange     '4.2.0-0.24.2' ] ]
+26 verbose addNamed phonegap@4.2.0-0.24.2
+27 silly addNamed semver.valid 4.2.0-0.24.2
+28 silly addNamed semver.validRange 4.2.0-0.24.2
+29 silly mapToRegistry name phonegap
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/phonegap
+33 verbose addRemoteTarball https://registry.npmjs.org/phonegap/-/phonegap-4.2.0-0.24.2.tgz not in flight; adding
+34 verbose addRemoteTarball [ 'https://registry.npmjs.org/phonegap/-/phonegap-4.2.0-0.24.2.tgz',
+34 verbose addRemoteTarball   '61d2fdc1392d60c04cda40662314bfa8521eef5a' ]
+35 info retry fetch attempt 1 at 5:12:02 PM
+36 info attempt registry request try #1 at 5:12:02 PM
+37 http fetch GET https://registry.npmjs.org/phonegap/-/phonegap-4.2.0-0.24.2.tgz
+38 http fetch 200 https://registry.npmjs.org/phonegap/-/phonegap-4.2.0-0.24.2.tgz
+39 silly fetchAndShaCheck shasum 61d2fdc1392d60c04cda40662314bfa8521eef5a
+40 verbose addTmpTarball /var/folders/cg/731k11d57y50gytv0nkqlm_80000gp/T/npm-24108-a6ebb279/registry.npmjs.org/phonegap/-/phonegap-4.2.0-0.24.2.tgz not in flight; adding
+41 verbose addTmpTarball already have metadata; skipping unpack for phonegap@4.2.0-0.24.2
+42 silly cache afterAdd phonegap@4.2.0-0.24.2
+43 verbose afterAdd /Users/administrator/.npm/phonegap/4.2.0-0.24.2/package/package.json not in flight; writing
+44 verbose afterAdd /Users/administrator/.npm/phonegap/4.2.0-0.24.2/package/package.json written
+45 silly install resolved [ { name: 'phonegap',
+45 silly install resolved     description: 'PhoneGap command-line interface and node.js library.',
+45 silly install resolved     version: '4.2.0-0.24.2',
+45 silly install resolved     homepage: 'http://github.com/phonegap/phonegap-cli',
+45 silly install resolved     repository:
+45 silly install resolved      { type: 'git',
+45 silly install resolved        url: 'git://github.com/phonegap/phonegap-cli.git' },
+45 silly install resolved     keywords:
+45 silly install resolved      [ 'cli',
+45 silly install resolved        'cordova',
+45 silly install resolved        'phonegap',
+45 silly install resolved        'phonegap build',
+45 silly install resolved        'phonegap/build' ],
+45 silly install resolved     preferGlobal: 'true',
+45 silly install resolved     main: './lib/main.js',
+45 silly install resolved     bin: { phonegap: './bin/phonegap.js' },
+45 silly install resolved     scripts: { test: 'jasmine-node --color spec' },
+45 silly install resolved     engineStrict: 'true',
+45 silly install resolved     engines: { node: '>=0.10.0' },
+45 silly install resolved     dependencies:
+45 silly install resolved      { colors: '0.6.0-1',
+45 silly install resolved        'connect-phonegap': '0.14.8',
+45 silly install resolved        cordova: '4.2.0',
+45 silly install resolved        minimist: '0.1.0',
+45 silly install resolved        'phonegap-build': '0.9.1',
+45 silly install resolved        pluralize: '0.0.4',
+45 silly install resolved        prompt: '0.2.11',
+45 silly install resolved        'qrcode-terminal': '0.9.4',
+45 silly install resolved        semver: '1.1.0',
+45 silly install resolved        shelljs: '0.1.4' },
+45 silly install resolved     devDependencies: { 'jasmine-node': '1.14.5', chdir: '0.0.x' },
+45 silly install resolved     optionalDependencies: {},
+45 silly install resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+45 silly install resolved     templates:
+45 silly install resolved      { blank: [Object],
+45 silly install resolved        'hello-world': [Object],
+45 silly install resolved        'hello-cordova': [Object] },
+45 silly install resolved     gitHead: '9b6722c4cd1b5ead91cc7df013c705fafdaa7dfb',
+45 silly install resolved     bugs: { url: 'https://github.com/phonegap/phonegap-cli/issues' },
+45 silly install resolved     _id: 'phonegap@4.2.0-0.24.2',
+45 silly install resolved     _shasum: '61d2fdc1392d60c04cda40662314bfa8521eef5a',
+45 silly install resolved     _from: 'phonegap@*',
+45 silly install resolved     _npmVersion: '2.1.8',
+45 silly install resolved     _nodeVersion: '0.10.26',
+45 silly install resolved     _npmUser: { name: 'mwbrooks', email: 'michael@michaelbrooks.ca' },
+45 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+45 silly install resolved     dist:
+45 silly install resolved      { shasum: '61d2fdc1392d60c04cda40662314bfa8521eef5a',
+45 silly install resolved        tarball: 'http://registry.npmjs.org/phonegap/-/phonegap-4.2.0-0.24.2.tgz' },
+45 silly install resolved     directories: {},
+45 silly install resolved     _resolved: 'https://registry.npmjs.org/phonegap/-/phonegap-4.2.0-0.24.2.tgz' } ]
+46 info install phonegap@4.2.0-0.24.2 into /usr/local/lib
+47 info installOne phonegap@4.2.0-0.24.2
+48 verbose installOne of phonegap to /usr/local/lib not in flight; installing
+49 warn locking Error: EACCES, open '/Users/administrator/.npm/_locks/phonegap-e2bb9ce47409f16e.lock'
+49 warn locking     at Error (native)
+49 warn locking  /Users/administrator/.npm/_locks/phonegap-e2bb9ce47409f16e.lock failed { [Error: EACCES, open '/Users/administrator/.npm/_locks/phonegap-e2bb9ce47409f16e.lock']
+49 warn locking   errno: -13,
+49 warn locking   code: 'EACCES',
+49 warn locking   path: '/Users/administrator/.npm/_locks/phonegap-e2bb9ce47409f16e.lock' }
+50 verbose stack Error: Attempt to unlock /usr/local/lib/node_modules/phonegap, which hasn't been locked
+50 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+50 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:929:5)
+50 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:933:20
+50 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+50 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+50 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+50 verbose stack     at FSReqWrap.oncomplete (fs.js:99:15)
+51 verbose cwd /Users/administrator/Documents/+octav/octav@local/MorseGap/morsegap
+52 error Darwin 13.4.0
+53 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "phonegap" "-g"
+54 error node v0.12.0
+55 error npm  v2.5.1
+56 error Attempt to unlock /usr/local/lib/node_modules/phonegap, which hasn't been locked
+57 error If you need help, you may report this error at:
+57 error     <http://github.com/npm/npm/issues>
+58 verbose exit [ 1, true ]
